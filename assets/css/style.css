@@ -1,0 +1,27 @@
+.logo{
+  font-family: "oswald", sans-serif;
+  color: #ffffff;
+}
+body{
+  font-family: "open-sans", sans-serif;
+}
+
+header {
+  background-image: url('../img/bg_hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 45rem;
+}
+
+
+.linea{
+  border-color: white;
+  width: 10rem;
+}
+
+.linea-negra{
+  border-color: #373A3C;
+  width: 10rem;
+  
+}
