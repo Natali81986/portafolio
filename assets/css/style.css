@@ -24,11 +24,15 @@ header {
   border-color: #373A3C;
   width: 3rem;
 }
+
+
 .interlineado {
   line-height: 250%;
   text:
 
 }
+
+
 h2{
 font-family: "oswald"; sans-serif;
 }
@@ -50,14 +54,12 @@ font-family: "oswald"; sans-serif;
 }
 .border{
   border-color: #DDDDDD, solid;
-  
 }
 
 .carousel-indicators li{
-  width: 0.5em;
-  height: 0.5em;
-  background-color: white;
+  width: 1rem;
+  height: 1rem;
+  background-color: black;
   border-radius: 50%;
-  color: black;
-  position: absolute;
+
 }
