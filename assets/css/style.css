@@ -22,6 +22,30 @@ header {
 
 .linea-negra{
   border-color: #373A3C;
-  width: 10rem;
-  
+  width: 3rem;
+}
+.interlineado {
+  line-height: 250%;
+
+}
+h2{
+font-family: "oswald"; sans-serif;
+}
+
+.card{
+  text-align: left;
+  color: #373A3C;
+  font-family: "open-sans light", sans-serif;
+  font-size: 16px;
+}
+
+.card-title{
+  text-align: left;
+  color: #373A3C;
+  font-family: "oswald", sans-serif;
+  font-size: 400;
+
+}
+.border{
+  border-color: #DDDDDD, solid;
 }
