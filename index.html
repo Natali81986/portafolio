@@ -62,7 +62,7 @@ crossorigin="anonymous">
     <!--yo soy-->
 
     <!--texto-->
-    <section class="text-center my-5">
+    <section class=" d-none d-md-block text-center my-5">
       <div class="container px-3">
           <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptatum</h2>
           <br>
@@ -92,129 +92,173 @@ crossorigin="anonymous">
 
     </section>
 
+
+
+    <!-- mi experiencia-->
     <section>
       <h2 class="display-4 text-center font-weight-bold ">MI EXPERIENCIA</h2>
       <hr class="linea-negra px-5">
       </section>
+    <!--/ mi experiencia-->
+
 
       <!--carrusel iconos-->
+    <div class="container text-center my-4 d-md-block">
 
-      <div class="container col-12">
-          <div class="col-6 pt-5 pb-5 text-info">
-            <div id="blogcarousel"class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                 <li data-target="#blogcarousel" data-slide-to="0" class="active"></li>
-                 <li data-target="#blogcarousel" data-slide-to="1"></li>
-              </ol>
+      <div id="carouselExampleIndicators" class="carousel slide "
+          data-ride="carousel">
 
-              <div class="carousel-inner text-center">
-                <div class="carousel-item active">
-                  <div class="row">
-                    <div class="col-3">
-                      <i class="fab fa-mailchimp fa-5x"></i>
-                    </div>
-                    <div class="col-3">
-                      <i class="fab fa-mixer fa-5x"></i>
-                    </div>
 
-                  </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-3">
-                      <i class="fab fa-cc-amazon-pay fa-5x"></i>
-                    </div>
-                    <div class="col-3">
-                      <i class="fab fa-autoprefixer fa-5x"></i>
-                    </div>
-                  </div>
-                </div>
+          <div class="carousel-inner ">
+            <div class="carousel-item active">
+
+              <div class="row">
+
+              <div class="col-4 ">
+                <img src="assets/img/metro.png" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="col-4">
+                <img src="assets/img/inversierra.png" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="col-4">
+                <img src="assets/img/dalmata.png" class="d-block w-100" alt="...">
+              </div>
+
             </div>
+
+          </div>
+
+          <div class="carousel-item">
+
+            <div class="row">
+
+            <div class="col-4">
+              <img src="assets/img/osch.png" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="col-4">
+              <img src="assets/img/mercurio.png" class="d-block w-100" alt="...">
+            </div>
+
+            <div class="col-4">
+              <img src="assets/img/massiva.png" class="d-block w-100" alt="...">
+            </div>
+
           </div>
 
         </div>
       </div>
 
     </div>
+    <br>
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    </ol>
+  </div>
+      <!--/carrusel-->
 
+      <!-- mis trabajos-->
       <div class="contaner bg-info text-white py-5  px-5">
         <h2 class="display-4 text-center font-weight-bold ">MIS TRABAJOS</h2>
         <hr class="linea px-5">
-      <!--cards recetas relacionadas-->
-              <section  class="container-fluid col-12 cold-md-6">
+      <!-- /mis trabajos-->
 
-              <div class="container">
+      <!--cards-->
+            <section class="pt-5">
+              <div class="container-fluid">
+                <div class="container">
+                  <div class="card-deck">
+                    <div class="card">
+                      <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <hr class="border-bold mt-2">
+                        <h5 class="card-title">Meet&Coffee</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
 
-                <br>
 
-              <br>
-                <div class="card-deck">
-                <div class="card">
+                    <div class="card">
+                      <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <hr class="border-bold mt-2">
+                        <h5 class="card-title">Iguana Page</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
 
-                  <img src="assets/img/meet_coffee.png" class="image-fluid" alt="...">
-                  <div class="card-body">
-                    <hr class="border bold mt-2">
-                    <h5 class="card-title">Meet&Coffee</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+
+                    <div class="card">
+                      <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <hr class="border-bold mt-2">
+                        <h5 class="card-title">Suricata</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
                   </div>
+
                 </div>
 
-                <div class="card">
-                  <img src="assets/img/iguana_page.png" class="image-fluid" alt="...">
-                  <div class="card-body">
-                    <hr class="border bold mt-2">
-                    <h5 class="card-title">Iguana Page</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore, aperiam saepe consequatur libero, fugit eaque.</p>
+              </div>
+            </section>
+
+            <section class="pt-5">
+              <div class="container-fluid">
+                <div class="container">
+                  <div class="card-deck">
+                    <div class="card">
+                      <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <hr class="border-bold mt-2">
+                        <h5 class="card-title">Cuppon</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+
+
+                    <div class="card">
+                      <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <hr class="border-bold mt-2">
+                        <h5 class="card-title">Ricomida</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+
+
+                    <div class="card">
+                      <img src="assets/img/dmark.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <hr class="border-bold mt-2">
+                        <h5 class="card-title">Dmark</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
 
-                <div class="card">
-                  <img src="assets/img/suricata.png" class="image-fluid" alt="...">
-                  <div class="card-body">
-                      <hr class="border bold mt-2">
-                    <h5 class="card-title">Suricata</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                 </div>
 
               </div>
+            </section>
+          </div>
+            <!--/cards-->
+
+            <!--contacto-->
+            <section>
+              <div class="container-fluid">
+                <h2 class="display-4 text-center font-weight-bold mt-5">CONTACTO</h2>
+                <hr class="linea-negra px-5">
+              </div>
+              <div class="container-fluid px-5">
 
               </div>
 
-
-              <div class="card-deck mt-4">
-              <div class="card">
-                <img src="assets/img/cuppon.png" class="image-fluid" alt="...">
-                <div class="card-body">
-                  <hr class="border bold mt-2">
-                  <h5 class="card-title">Cuppon</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img src="assets/img/ricomida.png" class="image-fluid" alt="...">
-                <div class="card-body">
-                  <hr class="border mt-2">
-                  <h5 class="card-title">Ricomida</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore, aperiam saepe consequatur libero.</p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img src="assets/img/dmark.png" class="image-fluid" alt="...">
-                <div class="card-body">
-                  <hr class="border bold mt-2">
-                  <h5 class="card-title">DMark</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer.</p>
-              </div>
-
-            </div>
-
-            </div>
-                </div>
-                </section>
-                  </div>
-            <!--/cards recetas relacionadas-->
-
+              </section>
+            <!--/contacto-->
 
 
 

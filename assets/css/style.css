@@ -26,6 +26,7 @@ header {
 }
 .interlineado {
   line-height: 250%;
+  text:
 
 }
 h2{
@@ -37,6 +38,7 @@ font-family: "oswald"; sans-serif;
   color: #373A3C;
   font-family: "open-sans light", sans-serif;
   font-size: 16px;
+
 }
 
 .card-title{
@@ -48,4 +50,14 @@ font-family: "oswald"; sans-serif;
 }
 .border{
   border-color: #DDDDDD, solid;
+  
+}
+
+.carousel-indicators li{
+  width: 0.5em;
+  height: 0.5em;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  position: absolute;
 }
